@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "x": "node node_modules/react-native/local-cli/cli.js start",
-    "start": "react-native run-android",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
     "test": "jest"
   },
   "dependencies": {
@@ -25,5 +25,18 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusMelchiades/uber-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusMelchiades/uber-clone/issues"
+  },
+  "homepage": "https://github.com/matheusMelchiades/uber-clone#readme"
 }
